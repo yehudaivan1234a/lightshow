@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>
+			Ligh Show
+		</title>
+		<script>
+			window.onload = function() {
+            var colors = ['#ebd834', '#37eb34', '#3455eb', '#e134eb', '#eb3434', '#71ecf5'];
+            
+            var body = document.body;
+            var index = 0;
+
+            function changeColor() 
+			{
+				if (body.style.backgroundColor != colors[5])
+				{
+					body.style.backgroundColor = colors[index];
+					 index = (index + 1) % colors.length;
+				} else {
+					body.style.backgroundColor = colors[0];
+				}
+            }
+
+            setInterval(changeColor, 750);
+        };
+		</script>
+	</head>
+	<body style="background-color:red;">
+		
+		//http://localhost:80/lightshow.html
+		
+	</body>
+</html>
