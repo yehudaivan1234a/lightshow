@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Cars - AZoom Car Rental</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+		<img src="Logo.png" alt="Company Logo" id="logo">
+        <h1>Available Cars for Rent</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cars.html">Available Cars</a></li>
+                <li><a href="reserve.html">Reservation status</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+	
+	<section id="cars">
+    <section id="car-list">
+        <h2>Choose Your Electric Car</h2>
+        
+        <div class="car-item">
+            <img src="E1.jpeg" alt="Electric Car Model 1">
+            <h3>Electric Model A</h3>
+            <p>Range: 300 km per charge | Seats: 5 | Charging Time: 1 hour</p><br/>
+            <p><strong>Rental Options:</strong></p>
+            <ul>
+                <li>Daily: $50/day</li>
+                <li>Weekly: $300/week</li>
+                <li>Monthly: $1200/month</li>
+            </ul>
+            <button onclick="reserveCar('Electric Model A')">Reserve Now</button>
+        </div>
+
+        <div class="car-item">
+            <img src="E2.jpg" alt="Electric Car Model 2">
+            <h3>Electric Model B</h3>
+            <p>Range: 300 km per charge | Seats: 5 | Charging Time: 1.5 hours</p><br/>
+            <p><strong>Rental Options:</strong></p>
+            <ul>
+                <li>Daily: $50/day</li>
+                <li>Weekly: $300/week</li>
+                <li>Monthly: $1200/month</li>
+            </ul>
+            <button onclick="reserveCar('Electric Model B')">Reserve Now</button>
+        </div>
+        
+		<div class="car-item">
+            <img src="E3.jpg" alt="Electric Car Model 2">
+            <h3>Electric Model C</h3>
+            <p>Range: 400 km per charge | Seats: 5 | Charging Time: 1.5 hours</p><br/>
+            <p><strong>Rental Options:</strong></p>
+            <ul>
+                <li>Daily: $60/day</li>
+                <li>Weekly: $350/week</li>
+                <li>Monthly: $1300/month</li>
+            </ul>
+            <button onclick="reserveCar('Electric Model C')">Reserve Now</button>
+        </div>
+		
+		<div class="car-item">
+            <img src="E4.jpg" alt="Electric Car Model 2">
+            <h3>Electric Model D</h3>
+            <p>Range: 400 km per charge | Seats: 5 | Charging Time: 1.5 hours</p><br/>
+            <p><strong>Rental Options:</strong></p>
+            <ul>
+                <li>Daily: $60/day</li>
+                <li>Weekly: $350/week</li>
+                <li>Monthly: $1300/month</li>
+            </ul>
+            <button onclick="reserveCar('Electric Model D')">Reserve Now</button>
+        </div>
+		
+		<div class="car-item">
+            <img src="E5.jpg" alt="Electric Car Model 2">
+            <h3>Electric Model E</h3>
+            <p>Range: 500 km per charge | Seats: 5 | Charging Time: 1.5 hours</p><br/>
+            <p><strong>Rental Options:</strong></p>
+            <ul>
+                <li>Daily: $70/day</li>
+                <li>Weekly: $400/week</li>
+                <li>Monthly: $1500/month</li>
+            </ul>
+            <button onclick="reserveCar('Electric Model E')">Reserve Now</button>
+        </div>
+		
+		<div class="car-item">
+            <img src="E6.jpg" alt="Electric Car Model 2">
+            <h3>Electric Model F</h3>
+            <p>Range: 600 km per charge | Seats: 5 | Charging Time: 1.5 hours</p><br/>
+            <p><strong>Rental Options:</strong></p>
+            <ul>
+                <li>Daily: $75/day</li>
+                <li>Weekly: $450/week</li>
+                <li>Monthly: $2000/month</li>
+            </ul>
+            <button onclick="reserveCar('Electric Model F')">Reserve Now</button>
+        </div>
+
+    </section>
+	
+	<section id="car-list">
+        <h2>Other Car Options</h2>
+        
+        <div class="car-item">
+            <img src="NE1.jpeg" alt="Electric Car Model 1">
+            <h3>Electric Model A1</h3>
+            <p>Range: 300 km per charge | Seats: 5 | Charging Time: 1 hour</p><br/>
+            <p><strong>Rental Options:</strong></p>
+            <ul>
+                <li>Daily: $50/day</li>
+                <li>Weekly: $300/week</li>
+                <li>Monthly: $1200/month</li>
+            </ul>
+            <button onclick="reserveCar('Electric Model A1')">Reserve Now</button>
+        </div>
+
+        <div class="car-item">
+            <img src="NE2.jpeg" alt="Electric Car Model 2">
+            <h3>Electric Model B1</h3>
+            <p>Range: 300 km per charge | Seats: 5 | Charging Time: 1.5 hours</p><br/>
+            <p><strong>Rental Options:</strong></p>
+            <ul>
+                <li>Daily: $50/day</li>
+                <li>Weekly: $300/week</li>
+                <li>Monthly: $1200/month</li>
+            </ul>
+            <button onclick="reserveCar('Electric Model B1')">Reserve Now</button>
+        </div>
+        
+		<div class="car-item">
+            <img src="NE3.jpg" alt="Electric Car Model 2">
+            <h3>Electric Model C1</h3>
+            <p>Range: 400 km per charge | Seats: 5 | Charging Time: 1.5 hours</p><br/>
+            <p><strong>Rental Options:</strong></p>
+            <ul>
+                <li>Daily: $60/day</li>
+                <li>Weekly: $350/week</li>
+                <li>Monthly: $1300/month</li>
+            </ul>
+            <button onclick="reserveCar('Electric Model C1')">Reserve Now</button>
+        </div>
+		
+		<div class="car-item">
+            <img src="NE5.jpg" alt="Electric Car Model 2">
+            <h3>Electric Model D1</h3>
+            <p>Range: 400 km per charge | Seats: 5 | Charging Time: 1.5 hours</p><br/>
+            <p><strong>Rental Options:</strong></p>
+            <ul>
+                <li>Daily: $100/day</li>
+                <li>Weekly: $600/week</li>
+                <li>Monthly: $2000/month</li>
+            </ul>
+            <button onclick="reserveCar('Electric Model D1')">Reserve Now</button>
+        </div>
+    </section>
+	</section>
+	
+	
+	<div id="bookingModal" class="modal">
+		<div class="modal-content">
+			<span class="close" onclick="closeModal()">&times;</span>
+			<h2>Book Your Car</h2>
+			<form id="bookingForm" onsubmit="submitBooking(event)">
+				<label for="rate">Choose Rental Rate:</label>
+				<select id="rate" name="rate" required>
+					<option value="daily">Daily</option>
+					<option value="weekly">Weekly</option>
+					<option value="monthly">Monthly</option>
+					</select>
+				
+				</br>
+
+				<label for="startDate">Start Date:</label>
+				<input type="date" id="startDate" name="startDate" required>
+				
+				</br>
+
+				<label for="endDate">End Date:</label>
+				<input type="date" id="endDate" name="endDate" required>
+				
+				</br>
+
+				<label for="pickupBranch">Pick-up Branch:</label>
+				<select id="pickupBranch" name="pickupBranch" required>
+					<option value="A">Branch A</option>
+					<option value="B">Branch B</option>
+				</select>
+				
+				</br>
+
+				<label for="returnBranch">Return Branch:</label>
+				<select id="returnBranch" name="returnBranch" required>
+					<option value="A">Branch A</option>
+					<option value="B">Branch B</option>
+				</select>
+				
+				</br>
+
+				<button type="submit">Confirm Booking</button>
+			</form>
+		</div>
+	</div>
+
+
+	<div id="paymentModal" class="modal">
+		<div class="modal-content">
+			<span class="close" onclick="closePaymentModal()">&times;</span>
+			<h2>Payment Information</h2>
+			<form id="paymentForm" onsubmit="submitPayment(event)">
+				<label for="cardNumber">Card Number:</label>
+				<input type="text" id="cardNumber" name="cardNumber" required>
+				
+				<br>
+
+				<label for="cardHolder">Card Holder Name:</label>
+				<input type="text" id="cardHolder" name="cardHolder" required>
+				
+				<br>
+
+				<label for="expiryDate">Expiry Date:</label>
+				<input type="month" id="expiryDate" name="expiryDate" required>
+				
+				<br>
+
+				<label for="cvv">CVV:</label>
+				<input type="text" id="cvv" name="cvv" required>
+				
+				<br>
+
+				<button type="submit">Proceed to Payment</button>
+			</form>
+		</div>
+	</div>
+	
+	<section id="contact">
+    <h2>Contact Us:</h2>
+    <p><strong>Email:</strong> <a href="mailto:yimoher001@mymail.sim.edu.sg">yimoher001@mymail.sim.edu.sg</a></p>
+    <p><strong>Phone:</strong> +65 85257730</p>
+    <h3>Branch Locations:</h3>
+    <div class="branch-locations">
+        <div class="branch" id="branch-a">
+            <h4>Branch A</h4>
+            <img src="locA.jpg" alt="Map of Branch A" class="branch-map">
+            <p>Location: 461 Clementi Rd, SIM Global Education, Singapore 599491</p>
+        </div>
+        <div class="branch" id="branch-b">
+            <h4>Branch B</h4>
+            <img src="locB.jpg" alt="Map of Branch B" class="branch-map">
+            <p>Location: Singapore, Singapore 018956</p>
+        </div>
+    </div>
+	</section>
+
+    <footer>
+        <p>&copy; 2024 AZoom Car Rental. All rights reserved.</p>
+    </footer>
+
+    <script>
+    let isLoggedIn = false; // Track login status
+
+	function reserveCar(carModel) {
+    const isLoggedIn = localStorage.getItem("isLoggedIn") === "true"; // Check login status
+    
+    if (isLoggedIn) {
+        openModal(); // Open booking form if logged in
+    } else {
+        alert(`Please log in to reserve ${carModel}`);
+        window.location.href = 'login.html'; // Redirect to login page if not logged in
+		}
+	}
+	
+    
+    function openModal() {
+        document.getElementById("bookingModal").style.display = "flex";
+    }
+
+    function closeModal() {
+        document.getElementById("bookingModal").style.display = "none";
+    }
+
+    function submitBooking(event) {
+		event.preventDefault(); // Prevent form submission
+		const rate = document.getElementById("rate").value;
+		const startDate = document.getElementById("startDate").value;
+		const endDate = document.getElementById("endDate").value;
+		const pickupBranch = document.getElementById("pickupBranch").value;
+		const returnBranch = document.getElementById("returnBranch").value;
+
+		// Display booking confirmation message
+		alert(`Booking confirmed:\n
+		   Rate: ${rate}\n
+		   Start Date: ${startDate}\n
+		   End Date: ${endDate}\n
+		   Pick-up Branch: ${pickupBranch}\n
+		   Return Branch: ${returnBranch}`);
+		
+		closeModal(); // Close booking 
+		openPaymentModal(); // Open payment 
+	}
+
+	function openPaymentModal() {
+		document.getElementById("paymentModal").style.display = "flex";
+	}
+
+	function closePaymentModal() {
+		document.getElementById("paymentModal").style.display = "none";
+	}
+
+	function submitPayment(event) {
+		event.preventDefault(); // Prevent form submission
+		const cardNumber = document.getElementById("cardNumber").value;
+		const cardHolder = document.getElementById("cardHolder").value;
+		const expiryDate = document.getElementById("expiryDate").value;
+		const cvv = document.getElementById("cvv").value;
+
+		// Here, you would send the payment information to a server or process it accordingly
+		alert(`Payment processed successfully!\n
+		   Card Number: ${cardNumber}\n
+		   Card Holder: ${cardHolder}\n
+		   Expiry Date: ${expiryDate}\n
+		   CVV: ${cvv}`);
+
+		closePaymentModal(); // Close payment modal after payment
+	}
+	</script>
+</body>
+</html>

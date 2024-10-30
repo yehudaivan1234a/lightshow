@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - AZoom Car Rental</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+		<img src="Logo.png" alt="Company Logo" id="logo">
+        <h1>Login page</h1>
+		<nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cars.html">Available Cars</a></li>
+                <li><a href="reserve.html">Reservation status</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   <section id="login-form">
+		<div class="formo">
+			<form onsubmit="login(); return false;">
+				<label for="username">Username:</label><br>
+				<input type="text" id="username" name="username" required><br><br>
+				<label for="password">Password:</label><br>
+				<input type="password" id="password" name="password" required><br><br>
+				<button type="submit">Login</button>
+			</form>
+			
+			<a href="#" onclick="logout()">Logout</a>
+		</div>
+	</section>
+	
+	
+	<section id="contact">
+        <h2>Contact Us:</h2>
+        <p><strong>Email:</strong> <a href="mailto:yimoher001@mymail.sim.edu.sg">yimoher001@mymail.sim.edu.sg</a></p>
+        <p><strong>Phone:</strong> +65 85257730</p></br></br>
+        <h3>Branch Locations:</h3>
+        <div class="branch-locations">
+			<div class="branch" id="branch-a">
+				<h4>Branch A</h4>
+				<img src="locA.jpg" alt="Map of Branch A" class="branch-map">
+				<p>Location: 461 Clementi Rd, SIM Global Education, Singapore 599491</p>
+			</div>
+			<div class="branch" id="branch-b">
+				<h4>Branch B</h4>
+				<img src="locB.jpg" alt="Map of Branch B" class="branch-map">
+				<p>Location: Singapore, Singapore 018956</p>
+			</div>
+		</div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 AZoom Car Rental. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
